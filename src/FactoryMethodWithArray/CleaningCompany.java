@@ -27,6 +27,8 @@ public class CleaningCompany extends Company{
         employee.add(new Cleaner());
         employee.add(new Cleaner());
         employee.add(new Manager());
+        employee.add(new Electrik());
+        
         
         return employee; 
     }
