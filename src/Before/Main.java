@@ -31,19 +31,19 @@ public class Main {
 
 class Designer {
     void designArchitecture(){
-        System.out.println("I disinger. Create architecture!");
+        System.out.println("I`m disinger. Create architecture!");
     }
 }
 
  class Programmer {
     void programmingCode(){
-        System.out.println("I programmer. Programming code!");
+        System.out.println("I`m programmer. Programming code!");
     }
 }
 
 class Tester {
     void TestingCode(){
-        System.out.println("I tester. Testing code!");
+        System.out.println("I`m tester. Testing code!");
     }
 }
 
