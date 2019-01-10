@@ -19,16 +19,19 @@ public class CleaningCompany extends Company{
         System.out.println("");
         System.out.println("Starting company activity " +CleaningCompany.class.getSimpleName() +"\n");
         List employee = new ArrayList(); //пример c коллекцией
-        employee.add(new Cleaner());
+        //employee.add(new Cleaner());
         employee.add(new Cleaner());
         employee.add(new Manager());
-        employee.add(new Cleaner());
-        employee.add(new Cleaner());
-        employee.add(new Cleaner());
-        employee.add(new Cleaner());
+        //employee.add(new Cleaner());
+        //employee.add(new Cleaner());
+        //employee.add(new Cleaner());
+       // employee.add(new Cleaner());
         employee.add(new Manager());
         employee.add(new Electrik());
         
+        for (int i = 1; i <= 5; i++) {
+            employee.add(new Cleaner());            
+        }
         
         return employee; 
     }
